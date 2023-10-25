@@ -270,8 +270,6 @@ all_models <- data.frame(
                accuracy5$overall["Accuracy"],
                accuracy6$overall["Accuracy"]))
 
-Recall= c(toString(Recall1), toString(Recall3), toString(Recall4), toString(Recall5), toString(Recall6))
-
 all_models
 models    Recall  accuracy
 1    LOGR 0.8574578 0.8181818
